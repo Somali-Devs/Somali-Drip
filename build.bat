@@ -16,10 +16,10 @@ if %errorlevel% neq 0 (
     exit
 )
 
-npm install -g pkg
+call npm install -g pkg
 
 node src\main.js
 
-pkg out.js --compress GZip -t node18-win
+pkg out.js --compress GZip -t node18-win-x64
 
 del out.js

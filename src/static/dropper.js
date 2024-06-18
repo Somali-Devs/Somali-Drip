@@ -1,7 +1,7 @@
-const fs = import('fs');
-const os = import('os');
-const path = import('path');
-const spawn = import('child_process').spawn;
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const spawn = require('child_process').spawn;
 
 const file_ending = "YOUR_FILE_ENDING_HERE";
 const remove = false;

@@ -1,10 +1,10 @@
-const fs = require('fs');
-const os = require('os');
-const path = require('path');
-const spawn = require('child_process').spawn;
+var fs = require('fs');
+var os = require('os');
+var path = require('path');
+var spawn = require('child_process').spawn;
 
-const file_ending = "YOUR_FILE_ENDING_HERE";
-const remove = false;
+var file_ending = "YOUR_FILE_ENDING_HERE";
+var remove = false;
 
 function deleteTempFile(tempDir) {
     try {
